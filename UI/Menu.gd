@@ -6,6 +6,7 @@ func _physics_process(delta):
 
 func _on_Restart_pressed():
 	get_tree().change_scene("res://Maze/Maze.tscn")
+	get_tree().paused = false
 
 
 func _on_Quit_pressed():
